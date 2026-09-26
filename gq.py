@@ -7,7 +7,7 @@ import urllib.request
 
 URL = 'https://api.groq.com/openai/v1/chat/completions'
 MODEL = 'llama-3.3-70b-versatile'
-GROQ_API_KEY = 'PASTE_KEY_HERE'  # Put your key between quotes on your Pi. Do not push that edit to GitHub.
+GROQ_API_KEY = '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'  # Put your key between quotes on your Pi. Do not push that edit to GitHub.
 
 
 def main():
