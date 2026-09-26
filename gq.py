@@ -11,7 +11,7 @@ GROQ_API_KEY = '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'  # Put
 
 
 def main():
-    if GROQ_API_KEY == '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' or not GROQ_API_KEY.strip():
+    if GROQ_API_KEY == 'PASTE_KEY_HERE' or not GROQ_API_KEY.strip():
         sys.exit('Open groqchat1.py and replace PASTE_KEY_HERE with your Groq API key first.')
     print('Groq terminal chat. Type /quit to exit, /clear to forget this chat.')
     messages = [{'role': 'system', 'content': 'You are a helpful, concise chatbot. Be honest when unsure.'}]
